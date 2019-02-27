@@ -1,0 +1,32 @@
+h1 {
+	color: blue;
+}
+
+h2 {
+	border-left: solid 5px red;
+	border-bottom: solid 5px red;
+}
+
+p {
+	text-indent: 36px;
+}
+
+a {
+	color: red;
+}
+
+li {
+	line-height: 1.6;
+}
+
+.underline {
+	text-decoration: line-through;
+}
+
+img {
+	border: 5px solid grey;
+}
+
+img:hover {
+	border-color: pink;
+}
