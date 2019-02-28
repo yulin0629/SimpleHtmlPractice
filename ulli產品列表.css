@@ -146,6 +146,7 @@ img {
 }
 
 .productList li {
+	position: relative;
     float: left;
     width: 140px;
     height: 200px;
@@ -166,4 +167,12 @@ img {
 .productList li span {
 	color: red;
 	font-size: 20px;
+}
+
+.productList .sale {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: red;
+	color: #fff;
 }
